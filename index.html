@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Dynamic Web Fundamentals – Wisdom Okafor</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals. Wisdom Okafor. This page covers fundamental concepts in HTML, CSS, and JavaScript for dynamic web development.">
+    <meta name="author" content="Wisdom Okafor">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/wisdom-okafor-617b2b343/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/7?lang=eng">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Wisdom Okafor</h1>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/wisdom.jpg" alt="Description of section one image">
+      <p>My name is Wisdom Okafor. I was born in Benin City and live with my family in Awka, Nigeria. I am currently working at WisdomCyber Innovation as the CEO. I love spending time with my family.</p>
+    </section>
+
+    <section class="card">
+      <h2>Awka, Nigeria</h2>
+      <img src="images/nigeria.png" alt="Description of section two image">
+      <p>Awka, town and capital of Anambra state, southern Nigeria. The town lies along roads leading from Owerri, Umuahia, Onitsha, and Enugu. Formerly covered with tropical forest, the area around Awka now mostly consists of wooded grassland. South of the town on the slopes of the Awka-Orlu Uplands are some examples of soil erosion and gullying.</p>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Wisdom Okafor | Awka, Nigeira</p>
+        <p id="lastModified"></p>
+      </footer>
+      <script>
+        // Populate current year
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+    
+        // Populate last modified date
+        document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+      </script>
+</body>
+</html>
